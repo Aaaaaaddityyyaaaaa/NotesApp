@@ -1,0 +1,202 @@
+body{
+  margin: 0;
+  background-color: black;
+}
+.home-header{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color:rgba(36, 39, 40, 0.694) 
+}
+.home-header>h1{
+  font-size: 2.0rem;
+  color: green;
+}
+.add-home{
+  background-color: green;
+  color: aliceblue;
+  height: 30px;
+  width : 150px;
+  font-size: 1rem;
+}
+
+.create-header{
+  padding-top: 20px;
+}
+.back-link{
+  margin-left: 30px;
+  margin-top: 30px;
+  color: aliceblue;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.note{
+  position: absolute;
+  top:100px ;
+  left: 100px;
+  display:flex ;
+  gap: 30px;
+  flex-direction: column;
+  width :850px;
+  align-items: start;
+}
+
+.label-note{
+  border-style: groove;
+  border-width: 0.1px;
+  border-radius: 10px;
+  padding-left:20px ;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: aliceblue;
+}
+
+.content
+{
+  display:flex ;
+  flex-direction: column;
+  align-items: start;
+  border-style: groove;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  width:700px;
+
+}
+
+.title{
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  border-style: groove;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  width:535px;
+}
+
+.content-area{
+  border-radius: 10px;
+  border-style :groove ;
+  font-size: 0.85rem;
+  color: aliceblue;
+  background-color: black;
+  resize: none;
+  
+}
+
+.title-area{
+  border-radius: 10px;
+  border-style :groove ;
+  font-size: 0.85rem;
+  color: aliceblue;
+  background-color: black;
+  resize: none;
+}
+
+.note>button
+{
+  width:150px;
+  height:30px ; 
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  background-color: green;
+  color: aliceblue;
+  top :570px ;
+}
+
+.home-main{
+  display: flex;
+  gap: 20px;
+  
+  min-height: 500px;
+  max-height: fit-content;
+  max-width: 800px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  justify-self: center;
+  margin-top: 100px;
+ 
+  
+
+}
+
+
+.note-card
+{
+  background-color: black;
+  margin-left: 20px;
+  width:350px ;
+  height :285px;
+  border-style: groove;
+}
+
+
+.note-card-title{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.note-card-content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px; 
+}
+
+.note-card-title>label{
+  color: aliceblue;
+}
+.note-card-content>label{
+  color: aliceblue;
+}
+.note-card-title>textarea
+{
+  resize: none;
+  color: aliceblue;
+  background-color: black;
+  font-size: 1rem;
+  text-overflow:clip;
+  overflow: hidden;
+}
+
+.note-card-content>textarea{
+  resize: none;
+  color: aliceblue;
+  background-color: black;
+  font-size: 0.85rem;
+  text-overflow:clip;
+  height: 150px;
+  overflow: hidden;
+
+}
+
+.button-area{
+  margin-top:5px ; 
+  margin-bottom:5px ;
+  margin-left: 10px;
+}
+.edit-button{
+  color: aliceblue;
+  background-color: green;
+  font-size: 1rem;
+}
+
+.delete-button{
+  color: aliceblue;
+  background-color: rgb(189, 47, 47);
+  font-size: 1rem;
+}
